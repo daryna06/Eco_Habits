@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="stylesheet" href="styles.css">
+		<script type="module" src="script.js"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+
+	</head>
+
+	<nav id="nav">
+		<div id="logo"> <img src="logo.svg" width="100" height="92.04"></div>
+
+		<div class="pages">
+			<a href="quiz.html" class="quiz"> Quiz</a>
+			<a href="#containers" class="todo"> Challenges </a>
+			<a href="#rewards" class="prize"> Achievements </a>
+			<a href="about.html" class="about"> Our Team </a>
+
+
+		</div>
+	</nav>
+
+	<body>
+
+		<a href="#nav" class="top"> Go to Top </a>
+
+
+		<div class=container>
+			<div id="containers">
+				<div class="challenge">
+					<h1> Your Eco-Habits</h1>
+				</div>
+
+				<div id="todoq1-container" style="display:none;"> Invest in a reusable water bottle! A reusable water bottle is equivalent to 1,460 plastic bottles a year.There are many water bottles out there, you’ll definitely be able to find one in the style you like! You can even get creative and customize your bottle with stickers and paint :)
+
+					<div class="upbutton"><a onclick="return hide1();">Redeem Reward</a></div>
+				</div>
+
+
+				<div id="todoq2-container" style="display:none;"> Get creative and either repurpose an old container into a compost bin for you and your family, or you can purchase one from any local hardware store. Composting food scraps is a great way to reduce the amount of waste you produce and it’s great fertilizer for soil if you’re into gardening!
+
+					<div class="upbutton"><a onclick="return hide2();">Redeem Reward</a></div>
+				</div>
+
+				<div id="todoq3-container" style="display:none;"> Did you know that 50 million tonnes of electronic and electrical waste are produced every year? The next time something breaks, try fixing it first before chucking it out! There are hundreds of helpful videos on YouTube nowadays and it’s a great way to learn a new skill :) If you aren’t able to fix it, try thinking of a way to repurpose the item before tossing it into the garbage.
+
+					<div class="upbutton"><a onclick="return hide3();">Redeem Reward</a></div>
+				</div>
+
+				<div id="todoq4-container" style="display:none;"> Going shopping and buying new clothes can be fun and exciting, but you might want to think twice the next time you want to buy a new t-shirt. An average Canadian throws out 81 pounds of textiles every year! A lot of those clothes could have been given a new home. Try checking out a local thrift store the next time you’re thinking of buying new clothes, you’ll be surprised about the variety of clothes that thrift stores carry.
+
+					<div class="upbutton"><a onclick="return hide4();">Redeem Reward</a></div>
+				</div>
+
+				<div id="todoq5-container" style="display:none;"> An average of 4 gallons of water is wasted every time the tap is left on when you brush your teeth! Easily reduce your water waste by making sure you close the tap while brushing your teeth. We challenge you to waste as little water as possible in your morning routines, show us what parts of your morning routine you could adjust to save water!
+					<div class="upbutton"><a onclick="return hide5();">Redeem Reward</a></div>
+				</div>
+
+
+				<div id="todoq6-container" style="display:none;"> Washing clothes in warm or hot water requires a lot of energy because the machine needs a lot of energy to heat up the water. Many people believe that washing clothes with warm water is better for removing stains, but cold water works just as well. We challenge you to start washing your laundry with cold water and see. It will also lower your electricity bill and save you money in the long run :)
+					<div class="upbutton"><a onclick="return hide6();">Redeem Reward</a></div>
+				</div>
+
+				<div id="todoq7-container" style="display:none;"> Turning off the lights before leaving a room, even if you plan to return quickly, can help reduce your ecological footprint and bring down the cost of your electrical bill. We challenge you to start making it a habit to turn off the lights and appliances in a room whenever you leave the room. You’ll be surprised how many appliances you keep on without even using them!
+					<div class="upbutton"><a onclick="return hide7();">Redeem Reward</a></div>
+				</div>
+
+				<div id="todoq8-container" style="display:none;"> The internet can be a great place with lots of resources for all kinds of purposes, from educational to entertainment. However, there are many environmental impacts of electricity. Fossil fuel based electricity emits greenhouse gases which leads to global warming. Limiting our electronic usage to only what is necessary can be beneficial toward our planet as well as for individual mental health. Going outside and being in nature improves our mood and overall wellbeing. Staring at a screen for too long is also harmful for our eyes and can often affect one’s vision. Try setting a time limit on your electronic devices and seeing how much you really need to use them in your daily lives! <div class="upbutton"><a onclick="return hide8();">Redeem Reward</a></div>
+				</div>
+
+				<div id="todoq9-container" style="display:none;"> It may be convenient to just chuck old batteries into the trash, but when the batteries end up at landfills, they begin to decay and leak. This causes pollution of both the water and air, ultimately harming the environment. We challenge you to start properly disposing of your batteries, by bringing them to a facility that will take them in :) <div class="upbutton"><a onclick="return hide9();">Redeem Reward</a></div>
+				</div>
+
+				<div id="todoq10-container" style="display:none;"> A 10 minute shower uses an average of 25 gallons of water. Showering can lead to high amounts of water wastage, especially if they are longer than 10 minutes but we know that it’s easy to lose track of time once you’re in there! We challenge you to create a shower playlist of your favorite songs that’s under 10 mins and use it the next time you’re showering to gauge how long you’ve been in the shower. <div class="upbutton"><a onclick="return hide10();">Redeem Reward</a></div>
+				</div>
+
+				<div id="todoq11-container" style="display:none;"> Most grocery stores nowadays are charging extra money for plastic bags. Invest in a reusable shopping bag to save money in the long run and help reduce the amount of plastic in our landfills! You can easily purchase a reusable shopping bag at most grocery stores. <div class="upbutton"><a onclick="return hide11();">Redeem Reward</a></div>
+				</div>
+				<div id="todoq12-container" style="display:none;"> Taking public transit or carpooling has many benefits. For example, it significantly reduces gas emissions, as well as traffic. Carpooling with a friend is fun and a great way to socialize while taking public transit is a great option too because you get to relax. <div class="upbutton"><a onclick="return hide12();">Redeem Reward</a></div>
+				</div>
+				<div id="todoq13-container" style="display:none;"> It’s easy to forget what clothes you own when you’re only utilizing around half of the items in your closet. Why not give the pieces you don’t normally reach for a new loving home? Go through all of the clothes you own and decide whether you want to keep, donate, or resell your clothes. There are many apps and websites that allow you to resell clothes, or you could donate to a local thrift store. <div class="upbutton"><a onclick="return hide13();">Redeem Reward</a></div>
+				</div>
+				<div id="todoq14-container" style="display:none;"> We understand that buying non-organic meats can be cheaper and you get more bang for your buck. However, non-organic meat contributes to the rising levels of greenhouse gases which are leading to global warming. We challenge you to start replacing one meal a week with organically sourced meats! <div class="upbutton"><a onclick="return hide14();">Redeem Reward</a></div>
+				</div>
+				<div id="todoq15-container" style="display:none;"> It may seem like you’re producing a lot of garbage everyday without any intentions to. A likely cause of this is that you aren’t sorting your garbage properly! Many people find it more convenient to just throw all of their garbage into one place without sorting it. We challenge you to start sorting your garbage at home into the following categories: garbage, compost, bottle recycling, paper recycling, and glass containers. See how much this will reduce your garbage production within just a week! <div class="upbutton"><a class=onclick="return hide15();">Redeem Reward</a></div>
+				</div>
+			</div>
+		</div>
+
+		<div id="rewards">
+			<div id="rewardt">
+				<h1> Your Achievments </h1>
+			</div>
+			<div class="before-main-prize">
+				<div class="before-prize-container">
+					<div class="prize-3r">
+
+						<div id="rimg"> <img src="3r.svg" width="100" height="100"></div>
+						<div id="3r"> Remember to reduce, reuse and recycle in order to win this award </div>
+					</div>
+				</div>
+
+				<div class="before-prize-container">
+					<div class="prize-mindful">
+
+						<div id="rimg"> <img src="mindful.svg" width="100" height="100"></div>
+						<div id="mind"> Become more mindful of how your actions affect the world around you, even the smallest of things </div>
+					</div>
+				</div>
+
+				<div class="before-prize-container">
+					<div class="prize-food">
+
+						<div id="rimg"> <img src="food.svg" width="100" height="100"></div>
+						<div id="food"> Everyone loves food, but our habits may not be the most environmentally friendly. Comple the food related tasks to win this award</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="quiz-container" id="quiz-container">
+			<div class="write">
+				<h1>Select all that apply </h1>
+			</div>
+
+			<div class="quizq">
+				<div class="opener"><a class="check-link" href="#" name="1" onclick="return show1();">&nbsp X &nbsp</a> I often buy and drink from one-time use plastic bottles </div>
+			</div>
+
+			<div class="quizq">
+				<div class="opener"><a class="check-link" href="#1" name="1" onclick="return show2();">&nbsp X &nbsp </a> I do not have a compost bin set up at home yet </div>
+			</div>
+
+			<div class="quizq">
+				<div class="opener"><a class="check-link" href="#1" name="1" onclick="return show3();">&nbsp X &nbsp </a> I throw things out once they stop working without trying to fix it first</div>
+			</div>
+
+			<div class="quizq">
+				<div class="opener"><a class="check-link" href="#1" name="1" onclick="return show4();"> &nbsp X &nbsp </a> I buy most of my clothes new from the mall or a chain retailer</div>
+			</div>
+
+			<div class="quizq">
+				<div class="opener"><a class="check-link" href="#1" name="1" onclick="return show5();"> &nbsp X &nbsp </a> I leave the tap water running while I brush my teeth</div>
+			</div>
+
+			<div class="quizq">
+				<div class="opener"><a class="check-link" href="#1" name="1" onclick="return show6();"> &nbsp X &nbsp </a> I wash my clothes with warm or hot water</div>
+			</div>
+
+			<div class="quizq">
+				<div class="opener"><a class="check-link" href="#1" name="1" onclick="return show7();"> &nbsp X &nbsp </a> I often forget to turn off the lights when I leave the room </div>
+			</div>
+
+			<div class="quizq">
+				<div class="opener"><a class="check-link" href="#1" name="1" onclick="return show8();"> &nbspX &nbsp</a> I spend more than two hours using electronics every day</div>
+			</div>
+
+			<div class="quizq">
+				<div class="opener"><a class="check-link" href="#1" name="1" onclick="return show9();"> &nbspX&nbsp </a> I throw out my batteries into the trash once they stop working </div>
+			</div>
+
+			<div class="quizq">
+				<div class="opener"><a class="check-link" href="#1" name="1" onclick="return show10();">&nbsp X&nbsp </a> I shower for more than 10 mins everyday</div>
+			</div>
+
+			<div class="quizq">
+				<div class="opener"><a class="check-link" href="#1" name="1" onclick="return show11();"> &nbspX &nbsp</a> I always buy plastic bags for my groceries when grocery shopping</div>
+			</div>
+
+			<div class="quizq">
+				<div class="opener"><a class="check-link" href="#1" name="1" onclick="return show12();">&nbsp X &nbsp</a> I rarely take public transit or carpool as modes of transportation </div>
+			</div>
+
+			<div class="quizq">
+				<div class="opener"><a class="check-link" href="#1" name="1" onclick="return show13();"> &nbspX&nbsp </a> I have a lot of clothes and I only wear about half of what I own</div>
+			</div>
+
+			<div class="quizq">
+				<div class="opener"><a class="check-link" href="#1" name="1" onclick="return show14();"> &nbspX&nbsp </a> I regularly eat non-organic meats such as beef, pork, chicken, and fish</div>
+			</div>
+
+			<div class="quizq">
+				<div class="opener"><a class="check-link" href="#1" name="1" onclick="return show15();"> &nbspX&nbsp </a> I can fit a normal day's of garbage into one large garbage bag</div>
+			</div>
+		</div>
+
+		<div class="thing"> </div>
+
+
+		<script>
+			// task 1
+			function show1() {
+				if (document.getElementById('todoq1-container')
+					.style.display == 'none') {
+					document.getElementById('todoq1-container')
+						.style.display = 'block';
+
+				}
+				return false;
+
+			}
+
+			function hide1() {
+				if (document.getElementById('todoq1-container')
+					.style.display == 'block') {
+					document.getElementById('todoq1-container')
+						.style.display = 'none';
+
+					document.getElementById("3r")
+						.innerHTML = "You won this award! ";
+
+				}
+				return false;
+			}
+
+			// task 2
+
+			function show2() {
+				if (document.getElementById('todoq2-container')
+					.style.display == 'none') {
+					document.getElementById('todoq2-container')
+						.style.display = 'block';
+
+				}
+				return false;
+			}
+
+			function hide2() {
+				if (document.getElementById('todoq2-container')
+					.style.display == 'block') {
+					document.getElementById('todoq2-container')
+						.style.display = 'none';
+
+					document.getElementById("food")
+						.innerHTML = "You won this award! ";
+				}
+				return false;
+			}
+
+			// task 3
+
+			function show3() {
+				if (document.getElementById('todoq3-container')
+					.style.display == 'none') {
+					document.getElementById('todoq3-container')
+						.style.display = 'block';
+				}
+				return false;
+			}
+
+			function hide3() {
+				if (document.getElementById('todoq3-container')
+					.style.display == 'block') {
+					document.getElementById('todoq3-container')
+						.style.display = 'none';
+					document.getElementById("3r")
+						.innerHTML = "You won this award! ";
+				}
+				return false;
+			}
+
+			// task 4
+
+			function show4() {
+				if (document.getElementById('todoq4-container')
+					.style.display == 'none') {
+					document.getElementById('todoq4-container')
+						.style.display = 'block';
+				}
+				return false;
+			}
+
+			function hide4() {
+				if (document.getElementById('todoq4-container')
+					.style.display == 'block') {
+					document.getElementById('todoq4-container')
+						.style.display = 'none';
+					document.getElementById("3r")
+						.innerHTML = "You won this award! ";
+				}
+				return false;
+			}
+
+			// task 5 
+
+			function show5() {
+				if (document.getElementById('todoq5-container')
+					.style.display == 'none') {
+					document.getElementById('todoq5-container')
+						.style.display = 'block';
+				}
+				return false;
+			}
+
+			function hide5() {
+				if (document.getElementById('todoq5-container')
+					.style.display == 'block') {
+					document.getElementById('todoq5-container')
+						.style.display = 'none';
+
+					document.getElementById("mind")
+						.innerHTML = "You won this award! ";
+				}
+				return false;
+			}
+
+			// task 6
+
+			function show6() {
+				if (document.getElementById('todoq6-container')
+					.style.display == 'none') {
+					document.getElementById('todoq6-container')
+						.style.display = 'block';
+				}
+				return false;
+			}
+
+			function hide6() {
+				if (document.getElementById('todoq6-container')
+					.style.display == 'block') {
+					document.getElementById('todoq6-container')
+						.style.display = 'none';
+
+					document.getElementById("mind")
+						.innerHTML = "You won this award! ";
+				}
+				return false;
+			}
+
+			// task 7
+			function show7() {
+				if (document.getElementById('todoq7-container')
+					.style.display == 'none') {
+					document.getElementById('todoq7-container')
+						.style.display = 'block';
+
+				}
+				return false;
+			}
+
+			function hide7() {
+				if (document.getElementById('todoq7-container')
+					.style.display == 'block') {
+					document.getElementById('todoq7-container')
+						.style.display = 'none';
+
+					document.getElementById("mind")
+						.innerHTML = "You won this award! ";
+				}
+				return false;
+			}
+
+			// task 8
+
+			function show8() {
+				if (document.getElementById('todoq8-container')
+					.style.display == 'none') {
+					document.getElementById('todoq8-container')
+						.style.display = 'block';
+				}
+				return false;
+			}
+
+			function hide8() {
+				if (document.getElementById('todoq8-container')
+					.style.display == 'block') {
+					document.getElementById('todoq8-container')
+						.style.display = 'none';
+
+					document.getElementById("mind")
+						.innerHTML = "You won this award! ";
+				}
+				return false;
+			}
+
+			// task 9
+
+			function show9() {
+				if (document.getElementById('todoq9-container')
+					.style.display == 'none') {
+					document.getElementById('todoq9-container')
+						.style.display = 'block';
+				}
+				return false;
+			}
+
+			function hide9() {
+				if (document.getElementById('todoq9-container')
+					.style.display == 'block') {
+					document.getElementById('todoq9-container')
+						.style.display = 'none';
+					document.getElementById("3r")
+						.innerHTML = "You won this award! ";
+				}
+				return false;
+
+			}
+
+			// task 10 
+			function show10() {
+				if (document.getElementById('todoq10-container')
+					.style.display == 'none') {
+					document.getElementById('todoq10-container')
+						.style.display = 'block';
+				}
+				return false;
+			}
+
+			function hide10() {
+				if (document.getElementById('todoq10-container')
+					.style.display == 'block') {
+					document.getElementById('todoq10-container')
+						.style.display = 'none';
+
+					document.getElementById("mind")
+						.innerHTML = "You won this award! ";
+				}
+				return false;
+			}
+
+			// task 11
+
+			function show11() {
+				if (document.getElementById('todoq11-container')
+					.style.display == 'none') {
+					document.getElementById('todoq11-container')
+						.style.display = 'block';
+				}
+				return false;
+			}
+
+			function hide11() {
+				if (document.getElementById('todoq11-container')
+					.style.display == 'block') {
+					document.getElementById('todoq11-container')
+						.style.display = 'none';
+
+					document.getElementById("food")
+						.innerHTML = "You won this award! ";
+				}
+				return false;
+			}
+
+			// task 12
+
+			function show12() {
+				if (document.getElementById('todoq12-container')
+					.style.display == 'none') {
+					document.getElementById('todoq12-container')
+						.style.display = 'block';
+				}
+				return false;
+			}
+
+			function hide12() {
+				if (document.getElementById('todoq12-container')
+					.style.display == 'block') {
+					document.getElementById('todoq12-container')
+						.style.display = 'none';
+
+					document.getElementById("mind")
+						.innerHTML = "You won this award! ";
+				}
+				return false;
+			}
+
+			// task 13
+
+			function show13() {
+				if (document.getElementById('todoq13-container')
+					.style.display == 'none') {
+					document.getElementById('todoq13-container')
+						.style.display = 'block';
+				}
+				return false;
+			}
+
+			function hide13() {
+				if (document.getElementById('todoq13-container')
+					.style.display == 'block') {
+					document.getElementById('todoq13-container')
+						.style.display = 'none';
+					document.getElementById("3r")
+						.innerHTML = "You won this award! ";
+				}
+				return false;
+			}
+
+			// task 14
+
+			function show14() {
+				if (document.getElementById('todoq14-container')
+					.style.display == 'none') {
+					document.getElementById('todoq14-container')
+						.style.display = 'block';
+				}
+				return false;
+			}
+
+			function hide14() {
+				if (document.getElementById('todoq14-container')
+					.style.display == 'block') {
+					document.getElementById('todoq14-container')
+						.style.display = 'none';
+
+					document.getElementById("food")
+						.innerHTML = "You won this award! ";
+				}
+				return false;
+			}
+
+			// task 15
+
+			function show15() {
+				if (document.getElementById('todoq15-container')
+					.style.display == 'none') {
+					document.getElementById('todoq15-container')
+						.style.display = 'block';
+
+				}
+				return false;
+			}
+
+			function hide15() {
+				if (document.getElementById('todoq15-container')
+					.style.display == 'block') {
+					document.getElementById('todoq15-container')
+						.style.display = 'none';
+
+					document.getElementById("3r")
+						.innerHTML = "You won this award! ";
+				}
+				return false;
+			}
+		</script>
+
+
+		</div>
+	</body>
+
+	<!--footer>
+		<div class="footer">
+			<p> Contact us <br>
+				<a href="https://twitter.com/home">Twitter&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+
+				<a href="https://instagram.com">Instagram</a>
+		</div>
+	</footer>
+
+</html>

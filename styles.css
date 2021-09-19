@@ -1,0 +1,392 @@
+* {
+	margin: 0px;
+	font-family: 'Manrope', sans-serif;
+
+}
+
+nav {
+
+	top: 0px;
+	width: 100vw;
+	height: 110px;
+
+	background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(14, 174, 87, 1) 0%, rgba(12, 116, 117, 1) 90%);
+	box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+body {
+	background: #D1F0B1;
+	overflow-x: hidden;
+
+}
+
+
+p {
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+}
+
+
+.todo,
+.prize,
+.about,
+.quiz {
+	margin-left: 40px;
+	font-weight: 900;
+	font-size: 30px;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	color: #134050;
+}
+
+.pages {
+	margin-right: 70px;
+
+}
+
+#logo {
+	height: 100px;
+	width: 100px;
+
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-left: 40px;
+}
+
+#Missionlogo {
+	height: 300px;
+	width: 500px;
+
+
+	display: flex;
+	align-items: initial;
+	justify-content: flex-end;
+	margin-left: 40px;
+
+}
+
+
+
+.text {
+	position: relative;
+
+	display: flex;
+	align-items: center;
+
+}
+
+/*.text1 {
+	position: relative;
+	width:400px;
+	display: flex;
+	align-items: flex-start;
+	
+}*/
+
+.quiz-container {
+	position: absolute;
+	width: 70vw;
+	margin: auto;
+	top: 170px;
+	right: 15vw;
+	background: rgba(173, 193, 120, 0.5);
+	justify-content: center;
+	border-radius: 50px;
+	height: 1213px;
+}
+
+
+.quizq {
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+	margin-left: 5vw;
+
+}
+
+.write {
+	margin-left: 5vw;
+	margin-top: 40px;
+	;
+}
+
+.footer {
+	position: fixed;
+
+	bottom: 0px;
+	width: 100%;
+	background-color: #B6CB9E;
+	color: white;
+	text-align: center;
+	margin-top: 200px;
+
+}
+
+
+
+.col-lg-6 {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 65px;
+	text-align: center;
+	background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(14, 174, 87, 1) 0%, rgba(12, 116, 117, 1) 90%);
+	width: 190px;
+	height: 100;
+	border-radius: 50px;
+}
+
+.big-heading {
+	color: white;
+	font-size: 35px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.img1 {
+	width: 500px;
+	height: 300px;
+	
+	
+	background-color: black;
+}
+
+.img2 {
+	width: 500px;
+	height: 500px;
+	
+	background-color: black;
+}
+
+.img3 {
+	width: 500px;
+	height: 500px;
+	
+	background-color: black;
+}
+
+.img4 {
+	width: 500px;
+	height: 500px;
+
+	
+	background-color: black;
+}
+
+.name1 {
+	color: teal;
+	margin-bottom: 35px;
+	text-decoration: underline;
+}
+
+.name2 {
+	color: teal;
+	margin-bottom: 35px;
+	text-decoration: underline;
+	text-align: right;
+}
+
+.name3 {
+	color: teal;
+	margin-bottom: 35px;
+	text-decoration: underline;
+}
+
+.name4 {
+	color: teal;
+	margin-bottom: 35px;
+	text-decoration: underline;
+	text-align: right;
+}
+
+.text1 {
+	position: absolute;
+	color: #4ecdc4;
+	font-size: 25px;
+	margin-left: 530px;
+	/*padding-top: 30px;*/
+	top: 450px;
+	width: 400px;
+}
+
+
+.text2 {
+	position: absolute;
+	color: #4ecdc4;
+	font-size: 25px;
+	margin-left: 530px;
+	margin-bottom: 170px;
+	padding-top: 210px;
+	width: 950px;
+}
+
+.text3 {
+	position: absolute;
+	color: #4ecdc4;
+	font-size: 25px;
+	width: 450px;
+	margin-left: 50px;
+	top: 2500px;
+}
+
+.text4 {
+	position: absolute;
+	color: #4ecdc4;
+	font-size: 25px;
+	margin-right: 50px;
+	margin-bottom: 170px;
+	top: 3000px;
+	width: 950px;
+}
+
+.myslide1 {
+	margin-left: 110px;
+	margin-top: 60px;
+}
+
+.myslide2 {
+	margin-right: 110px;
+	margin-top: 90px;
+	float: right;
+}
+
+.myslide3 {
+	margin-left: 110px;
+	margin-top: 60px;
+}
+
+.myslide4 {
+	margin-right: 110px;
+	margin-top: 90px;
+	float: right;
+}
+
+
+
+#containers {
+
+	position: absolute;
+	width: 70vw;
+
+
+	top: 1450px;
+	right: 15vw;
+	background: rgba(173, 193, 120, 0.5);
+	border-radius: 50px;
+	height: 1750px
+		/*top: 1450px;
+	/*height: 20px;
+	position: absolute;
+	height: 1700px;
+	display:flex;
+	justify-content: center;
+	width: 70vw;
+	margin: auto;
+	background: rgba(173, 193, 120, 0.5);
+	border-radius: 50px;*/
+
+}
+
+.challenge {
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+
+#todoq1-container,
+#todoq2-container,
+#todoq3-container,
+#todoq4-container,
+#todoq5-container,
+#todoq6-container,
+#todoq7-container,
+#todoq8-container,
+#todoq9-container,
+#todoq10-container,
+#todoq11-container,
+#todoq12-container,
+#todoq13-container,
+#todoq14-container,
+#todoq15-container {
+	position: relative;
+	width: 50vw;
+	background: #92B4A7;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 25px;
+	padding: 30px;
+	border-radius: 50px;
+
+
+
+
+}
+
+.upbutton a {
+	color: green;
+
+	font-weight: 900;
+}
+
+.upbutton {
+	margin-top: 10px;
+}
+
+h4 {
+	font-weight: 900;
+	font-size: 30px;
+}
+
+.prize-3r,
+.prize-food,
+.prize-mindful {
+	background: #92B4A7;
+	margin-top: 50px;
+	width: 50vw;
+	border-radius: 50px;
+	margin-left: 10vw;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+
+
+
+#rewards {
+
+	position: absolute;
+	width: 70vw;
+
+
+	top: 3275px;
+	right: 15vw;
+	background: rgba(173, 193, 120, 0.5);
+	border-radius: 50px;
+	height: 700px;
+}
+
+#rewardt {
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.top {
+	position: fixed;
+	top: 135px;
+	right: 20px;
+	background: #92B4A7;
+	border-radius: 50px;
+	color: white;
+	padding: 5px;
+}
